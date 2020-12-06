@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+    }
+
+h2 {
+   color: white;
+   }
+
+p {
+  color: white;
+  }
+
+body {
+   background-color: black;
+   padding-top: 70px;
+   }
+
+img {
+   max-width: 100%;
+   height: auto;
+   display-block;
+   }
+
+ {
+   color: black;
+    }

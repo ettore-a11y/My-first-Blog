@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load static %}
+
+<title>{% block head_title %}{{ block.super }} | Contatti {% endblock head_title %}</title>
+
+{% block content %}
+
+    <h1>Contatti:</h1>
+    <h2>la mia pagina insta: <a href="https://www.instagram.com/arcano.insta/" target="_blank"> arcano.insta</a></h2>
+    <img src="{% static 'posts/img/insta_logo.png' %}"/>
+    <center><img src="{% static 'posts/img/Pitagora.jpg' %}"/></center>
+
+{% endblock content %}
